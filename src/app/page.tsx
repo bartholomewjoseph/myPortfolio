@@ -58,6 +58,20 @@ const projects = [
     link: "https://ee.kobotoolbox.org/EP8f2364",
     tags: ["KoBoToolbox", "Survey", "Public Health"],
   },
+  {
+    title: "SpendWise — Daily Spending Tracker",
+    description:
+      "A full-stack personal finance app that tracks daily income, spending, and investments with live wallet balance, animated dashboards, and daily/weekly/monthly/yearly views. Includes smart recommendations and investment reminders.",
+    link: "https://wiselyspend.vercel.app",
+    tags: ["Full-Stack", "Dashboard", "Finance"],
+  },
+  {
+    title: "SatCity Hospital Management Platform",
+    description:
+      "A unified hospital management system connecting doctors, lab technicians, pharmacists, and patients — featuring smart assignment, real-time notifications, Supabase auth, and full audit trails for modern clinical operations.",
+    link: "https://satcityhospital.vercel.app",
+    tags: ["Full-Stack", "Healthcare", "Supabase"],
+  },
 ];
 
 const skillCategories = [
@@ -563,8 +577,8 @@ export default function Home() {
                     </svg>
                   ),
                   label: "Phone",
-                  value: "+2348155186709",
-                  href: "tel:+2348155186709",
+                  value: "+234 815 518 6709",
+                  href: "tel:+234855186709",
                 },
                 {
                   icon: (
@@ -573,7 +587,7 @@ export default function Home() {
                     </svg>
                   ),
                   label: "LinkedIn",
-                  value: "linkedin.com/in/bartholomewjoseph",
+                  value: "LinkedIn",
                   href: "https://www.linkedin.com/in/bartholomewjoseph",
                 },
                 {
@@ -583,7 +597,7 @@ export default function Home() {
                     </svg>
                   ),
                   label: "GitHub",
-                  value: "github.com/bartholomewjoseph",
+                  value: "GitHub",
                   href: "https://github.com/bartholomewjoseph",
                 },
               ].map((contact, idx) => (
@@ -667,7 +681,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/bartholomewjoseph"
+              href="https://www.linkedin.com/in/bexAlex"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-cyan-400 transition-colors"
@@ -677,7 +691,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="mailto:josephbartholomew15@gmail.com"
+              href="mailto:bex@gmail.com"
               className="text-gray-500 hover:text-cyan-400 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
